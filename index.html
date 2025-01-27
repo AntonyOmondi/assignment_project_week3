@@ -29,7 +29,16 @@
                 <h2>Generate your Akan Name:</h2>
                 <form>
                     <div class="row">
-                        <input type="date" placeholder="DDMMYYYY" class="birthday">
+                        <input type="text" placeholder="Day of the Month" class="birthday">
+                    </div>
+                    <div class="row">
+                        <input type="text" placeholder="Month" class="birthday">
+                    </div>
+                    <div class="row">
+                        <input type="text" placeholder="Year e.g 1995 is 95" class="birthday">
+                    </div>
+                    <div class="row">
+                        <input type="text" placeholder="Century e.g 1995 is 19" class="birthday">
                     </div>
                     <div class="row">
                         <select name="gender" id="gender">
@@ -37,11 +46,13 @@
                             <option value="female">female</option>
                         </select>
                     </div>
-                    <div class="row">
-                        <button class="submit">Generate Name</button>
-                    </div>
-                    <div class="row">
-                        <button class="reset">Reset</button>
+                    <div class="buttons">
+                        <div class="row">
+                            <button class="submit">Generate Name</button>
+                        </div>
+                        <div class="row">
+                            <button class="reset">Reset</button>
+                        </div>
                     </div>
                 </form>
             </div>
