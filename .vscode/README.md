@@ -65,6 +65,7 @@ The JavaScript file contains:
 ## Demo
 
 You can try out the Akan Name Generator by simply downloading the project files or by hosting them on any web server.
+Or use the live link in my repository.
 
 ## Contributing
 
