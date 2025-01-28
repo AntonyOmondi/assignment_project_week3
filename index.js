@@ -7,7 +7,8 @@ const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Fri
 
 // Function to calculate day of the week using the formula
 function calculateDayOfWeek(dateOfBirth) {
-    const dateParts = dateOfBirth.split("-"); 
+    const dateParts = dateOfBirth.split("-");
+     
     const CC = Math.floor(dateParts[0] / 100); 
     const YY = dateParts[0] % 100; 
     const MM = parseInt(dateParts[1], 10); 
