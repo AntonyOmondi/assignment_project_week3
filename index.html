@@ -27,37 +27,28 @@
             </div>
             <div class="form">
                 <h2>Generate your Akan Name:</h2>
-                <form>
+                <form id="akanForm">
                     <div class="row">
-                        <input type="text" placeholder="Day of the Month" class="birthday">
+                        <input type="date" placeholder="Birth Date" id="dateOfBirth" required>
                     </div>
                     <div class="row">
-                        <input type="text" placeholder="Month" class="birthday">
-                    </div>
-                    <div class="row">
-                        <input type="text" placeholder="Year e.g 1995 is 95" class="birthday">
-                    </div>
-                    <div class="row">
-                        <input type="text" placeholder="Century e.g 1995 is 19" class="birthday">
-                    </div>
-                    <div class="row">
-                        <select name="gender" id="gender">
+                        <select name="gender" id="gender" required>
+                            <option value="">Select Your Gender</option>
                             <option value="male">male</option>
                             <option value="female">female</option>
                         </select>
                     </div>
                     <div class="buttons">
                         <div class="row">
-                            <button class="submit">Generate Name</button>
+                            <button type="button" onclick="generateAkanName()">Generate Akan Name</button>
                         </div>
-                        <div class="row">
-                            <button class="reset">Reset</button>
-                        </div>
+                        <div class="result" id="result"></div>
                     </div>
                 </form>
             </div>
             
         </div>
     </header>
+<script src="/index.js"></script>
 </body>
 </html>
