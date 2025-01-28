@@ -133,3 +133,169 @@ footer {
     color: white;
     text-shadow: 2px 2px 2px black;
 }
+@media only screen and (max-width: 599px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 1rem;
+        height: auto;
+    }
+
+    .title h1 {
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+        font-size: 1.5rem;
+    }
+
+    .intro {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .form {
+        padding: 1rem;
+    }
+
+    .form .row {
+        margin-bottom: 1rem;
+    }
+
+    .buttons {
+        align-items: stretch;
+    }
+
+    .result {
+        margin: 2rem auto;
+        width: 90%;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+    body {
+        font-size: 16px;
+        header {
+        padding: 1.5rem;
+        }
+
+    .title h1 {
+        padding-left: 3rem;
+        font-size: 2rem;
+        }
+
+    .intro {
+        width: 60%;
+        }
+
+    .container {
+        flex-direction: row;
+        gap: 2rem;
+        }
+
+    .form {
+        width: 100%;
+        }
+
+    .form .row input,
+    .form .row select {
+        width: 100%;
+        }
+
+    .buttons {
+        justify-content: flex-start;
+    }
+
+    .result {
+        width: 80%;
+    }
+
+    footer {
+        padding: 1.5rem;
+    }
+}
+}
+@media only screen and (min-width: 900px) {
+    body {
+        font-size: 18px;
+    }
+
+    header {
+        padding: 2rem;
+    }
+
+    .title h1 {
+        padding-left: 6rem;
+        font-size: 3rem;
+    }
+
+    .intro {
+        width: 50%;
+    }
+
+    .container {
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .form .row input,
+    .form .row select {
+        width: 100%;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .result {
+        width: 60%;
+    }
+
+    footer {
+        padding: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    body {
+        font-size: 20px;
+    }
+
+    header {
+        padding: 3rem;
+    }
+
+    .title h1 {
+        font-size: 4rem;
+    }
+    .intro {
+        width: 40%;
+    }
+
+    .container {
+        gap: 4rem;
+    }
+
+    .form {
+        width: 50%;
+
+    .result {
+        width: 50%;
+    }
+    }
+}
+
