@@ -32,8 +32,15 @@ The project consists of three main files:
 ```
 /akan-name-generator
   ├── index.html          # HTML structure
-  ├── style.css           # CSS for styling the application
-  └── script.js            # JavaScript for generating Akan names
+  ├── README.md           # Markdown explaining the project and technologies used.
+  ├── images              # Folder containing the images used in the project
+  |   ├── akhan-bg.jpg
+  |   └── flag_favicon.jpg
+  ├── css
+  |   └── style.css        # CSS for styling the application
+  └── src
+      └── script.js        # JavaScript for generating Akan names
+                  
 ```
 
 ---
